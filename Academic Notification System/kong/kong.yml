@@ -1,0 +1,56 @@
+# _format_version: "2.1"
+
+# services:
+#   - name: backend
+#     url: http://backend:8080
+#     routes:
+#       - name: backend-route-root
+#         paths:
+#           - /
+#       - name: backend-route-notify
+#         paths:
+#           - /notify
+
+#   - name: producer-frontend
+#     url: http://producer-frontend:8501
+#     routes:
+#       - name: producer-route
+#         paths:
+#           - /producer
+
+#   - name: consumer-frontend
+#     url: http://consumer-frontend:8502
+#     routes:
+#       - name: consumer-route
+#         paths:
+#           - /consumer
+#         methods:
+#           - GET
+
+
+_format_version: "2.1"
+
+services:
+  - name: backend
+    url: http://backend:8080
+    routes:
+      - name: signup-route
+        paths:
+          - /signup/
+        methods:
+          - POST
+      - name: token-route
+        paths:
+          - /token/
+        methods:
+          - POST
+      - name: notify-route
+        paths:
+          - /notify/
+        methods:
+          - POST
+      - name: notifications-route
+        paths:
+          - /notifications/
+        methods:
+          - GET
