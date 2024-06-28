@@ -1,4 +1,3 @@
-```markdown
 # Recipe Fetcher Application Overview
 
 ## Description
@@ -52,4 +51,3 @@ Recipe Fetcher is a web application that helps users discover recipes based on t
 
 ## Conclusion
 Recipe Fetcher leverages modern technologies to provide a seamless experience for discovering new recipes, combining robust backend services, an intuitive frontend, and AI capabilities for personalized culinary content.
-```
